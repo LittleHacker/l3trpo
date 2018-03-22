@@ -38,6 +38,13 @@ namespace l3
 
                     case 4:
                         Console.WriteLine("Вывод:");
+                        
+                        else if (oper == '/')
+                        {
+                            total = a / b;
+                            Console.WriteLine(total);
+                        }
+                        break;
 
                     case 5:
                         Console.WriteLine("Вы решили выйти");
