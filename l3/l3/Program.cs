@@ -59,3 +59,21 @@ namespace l3
         }
     }
 }
+
+
+//                        else if (oper == '-')
+//                        {
+//                            total = a - b;
+//                            Console.WriteLine(total);
+//                        }
+//                        else if (oper == '*')
+//                        {
+//                            total = a* b;
+//Console.WriteLine(total);
+//                        }
+//                        else if (oper == '/')
+//                        {
+//                            total = a / b;
+//                            Console.WriteLine(total);
+//                        }
+//                        break;
