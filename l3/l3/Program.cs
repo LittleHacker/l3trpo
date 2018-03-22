@@ -38,7 +38,12 @@ namespace l3
 
                     case 4:
                         Console.WriteLine("Вывод:");
-
+                        else if (oper == '-')
+                        {
+                            total = a - b;
+                            Console.WriteLine(total);
+                        }
+                        
                     case 5:
                         Console.WriteLine("Вы решили выйти");
                         break;
@@ -54,3 +59,15 @@ namespace l3
         }
     }
 }
+
+//else if (oper == '*')
+//                        {
+//                            total = a* b;
+//Console.WriteLine(total);
+//                        }
+//                        else if (oper == '/')
+//                        {
+//                            total = a / b;
+//                            Console.WriteLine(total);
+//                        }
+//                        break;
